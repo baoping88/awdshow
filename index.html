@@ -48,19 +48,19 @@
         nextText: '下一章节',
         crossChapter: true,
       },
-      plugins: [
-        EditOnGithubPlugin.create(
-          'https://github.com/cycxtIT/web-doc/blob/master/docs/',
-          null,
-          function ( file ) {
-            if ( file.indexOf( 'en' ) === -1 ) {
-              return '在 GitHub 上编辑'
-            } else {
-              return 'Edit on Github'
-            }
-          }
-        )
-      ],
+      // plugins: [
+      //   EditOnGithubPlugin.create(
+      //     'https://github.com/cycxtIT/web-doc/blob/master/docs/',
+      //     null,
+      //     function ( file ) {
+      //       if ( file.indexOf( 'en' ) === -1 ) {
+      //         return '在 GitHub 上编辑'
+      //       } else {
+      //         return 'Edit on Github'
+      //       }
+      //     }
+      //   )
+      // ],
       themeColor: "#42b983", // 暗黑模式主题色
       darklightTheme: {
         siteFont: "PT Sans",
